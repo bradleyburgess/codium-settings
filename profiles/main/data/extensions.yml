@@ -16,6 +16,8 @@ enabled:
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: hossaini.bootstrap-intellisense
     uuid: 7846dad3-dea1-40d3-a7f2-da368838d5fb
+  - id: jeanp413.open-remote-ssh
+    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
   - id: monosans.djlint
     uuid: 181ca32f-b54d-46ed-a851-c7fa71ec4108
   - id: ms-python.debugpy
