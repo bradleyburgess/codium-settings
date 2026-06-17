@@ -113,5 +113,20 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bootstrapIntelliSense": {
+    "enable": true,
+    "bsVersion": "5.3.8",
+    "useLocalFile": false,
+    "cssFilePath": "",
+    "languageSupport": [
+      "django-html"
+    ],
+    "enableHover": true,
+    "enableColorPreview": true,
+    "sortOnSave": true
   }
 }
