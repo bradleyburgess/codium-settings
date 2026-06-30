@@ -1,7 +1,8 @@
 {
   "files.associations": {
-    "**/templates/*.html": "django-html",
-    "**/templates/*": "django-txt"
+    "**/java/**/resources/**/*.html": "qute-html",
+    "**/!java/**/templates/*.html": "django-html",
+    "**/!/java/**/templates/*": "django-txt"
   },
   "yaml.schemas": {
     "file:///home/bradley/.vscode-oss/extensions/continue.continue-1.2.22-linux-x64/config-yaml-schema.json": [
@@ -36,6 +37,24 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
     {
       "before": [
         "g",
@@ -105,6 +124,7 @@
   "emmet.includeLanguages": {
     "html.erb": "html",
     "django-html": "html",
+    "qute-html": "html",
     "razor": "html"
   },
   "djls.djangoSettingsModule": "config.settings",
@@ -128,5 +148,15 @@
     "enableHover": true,
     "enableColorPreview": true,
     "sortOnSave": true
-  }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "qute.validation.enabled": true
 }
